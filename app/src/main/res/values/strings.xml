@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LoyaltyDemo</string>
+
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="SignIn">Sign In</string>
+    <string name="redeemNow">Redeem</string>
+    <string name="requestNow">Service Request</string>
+    <string name="pointBalance">Point Balance</string>
+    <string name="redeem">Redeem Now</string>
+
+    <!-- Redeem Activity -->
+    <string name="redeeem_alert">Do you realy want to Redeem now ?</string>
+    <!-- Menu items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_orders">My Orders</string>
+    <string name="menu_transactions">My Transactions</string>
+    <string name="menu_catalogue">Reward Catalogue</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_feedback">Feedback</string>
+
+</resources>

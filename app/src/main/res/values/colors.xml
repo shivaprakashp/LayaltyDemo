@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#EA6A4D</color>
+    <color name="greyBackground">#cccccc</color>
+    <color name="divider">#737373</color>
+    <color name="black">#000</color>
+</resources>
