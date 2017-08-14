@@ -26,6 +26,13 @@ public class MainController {
         httpRequest.execute(url);
     }
 
+    public void callCoupons(CommunicationListener listener, String url){
+        RequestProperties properties = new RequestProperties();
+        properties.setRequestKey(AppConstants.COUPONS.COUPONS);
+        HttpRequest httpRequest = new HttpRequest(context, listener, "GET", null, properties);
+        httpRequest.execute(url);
+    }
+
     public void callRedeemCatalouge( CommunicationListener listener){
         RequestProperties properties = new RequestProperties();
         properties.setRequestKey(AppConstants.CATALOGUE.REDEEM_CATALOGUE);

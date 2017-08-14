@@ -10,8 +10,8 @@
         </item>
 
         <item
-            android:id="@+id/menu_orders"
-            android:title="@string/menu_orders">
+            android:id="@+id/menu_coupons"
+            android:title="@string/menu_coupons">
 
         </item>
 

@@ -17,4 +17,8 @@ public interface AppConstants {
     interface LOGIN{
         String LOGIN = "LOGIN";
     }
+
+    interface COUPONS{
+        String COUPONS = "COUPONS";
+    }
 }

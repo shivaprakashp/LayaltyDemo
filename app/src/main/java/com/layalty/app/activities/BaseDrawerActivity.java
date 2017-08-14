@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.layalty.app.BaseActivity;
 import com.layalty.app.R;
+import com.layalty.app.activities.coupons.CouponsActivity;
 import com.layalty.app.customwidgets.RoundedImageView;
 import com.layalty.app.session.SessionManager;
 
@@ -108,7 +109,11 @@ public class BaseDrawerActivity extends BaseActivity {
                 switch (item.getItemId()) {
 
                     case R.id.menu_home:
-                        //UserProfileActivity.startUserProfileFromLocation(BaseDrawerActivity.this);
+                        HomeActivity.startIntent(BaseDrawerActivity.this);
+                        return true;
+
+                    case R.id.menu_coupons:
+                        CouponsActivity.startIntent(BaseDrawerActivity.this);
                         return true;
 
                     case R.id.menu_logout:

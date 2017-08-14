@@ -25,7 +25,10 @@
         <activity
             android:name=".activities.HomeActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".activities.redeem.RedeemActivity"></activity>
+        <activity android:name=".activities.redeem.RedeemActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.coupons.CouponsActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

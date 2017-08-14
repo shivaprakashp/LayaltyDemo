@@ -15,4 +15,6 @@ public class AppConfig {
 
     //Redeem my point
     public static String REDEEM_MY_POINT = "https://itc-hospitality-developer-edition.ap2.force.com/services/apexrest/Redemption";
+
+    public static String MY_COUPONS = "https://itc-hospitality-developer-edition.ap2.force.com/services/apexrest/LOYMemberVoucherServices?Membernumber=";
 }
